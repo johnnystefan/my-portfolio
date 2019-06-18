@@ -6,16 +6,18 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <title>{% block title %}{% endblock %} | Johnny Stefan</title>
+    <title>{% block title %}{% endblock %} || Portfolio Web Development</title>
 
     <!-- Estilos y fuentes del template  -->
     {% load static %}
+    <link rel="shortcut icon" type="image/png" href="{% static 'core/img/favicon.ico' %}"/>
     <link href="{% static 'core/vendor/bootstrap/css/bootstrap.min.css' %}" rel="stylesheet">
     <link href="{% static 'core/vendor/font-awesome/css/font-awesome.min.css' %}" rel="stylesheet" type="text/css">
     <link href='https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
     <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
     <link href="{% static 'core/css/clean-blog.min.css' %}" rel="stylesheet">
+    <link href="{% static 'core/css/base.css' %}" rel="stylesheet">
 
   </head>
 
@@ -73,17 +75,25 @@
           <div class="col-lg-8 col-md-10 mx-auto">
             <ul class="list-inline text-center">
               <li class="list-inline-item">
-                <a href="#">
+                <a href="https://johnnystefan.github.io/curriculumJohnny/">
                   <span class="fa-stack fa-lg">
-                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i style="color: #3b59" class="fa fa-circle fa-stack-2x"></i>
                     <i class="fa fa-address-card fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a href="https://facebook.com/devjsom">
+                  <span class="fa-stack fa-lg">
+                    <i style="color: #3b5998" class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
                   </span>
                 </a>
               </li>
               <li class="list-inline-item">
                 <a href="https://github.com/johnnystefan" >
                   <span class="fa-stack fa-lg">
-                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i style="color: #333" class="fa fa-circle fa-stack-2x"></i>
                     <i class="fa fa-github-alt fa-stack-1x fa-inverse"></i>
                   </span>
                 </a>
@@ -91,13 +101,13 @@
               <li class="list-inline-item">
                 <a href="https://www.linkedin.com/in/johnnydev/">
                   <span class="fa-stack fa-lg">
-                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i style="color: #0e76a8" class="fa fa-circle fa-stack-2x"></i>
                     <i class="fa fa-linkedin fa-stack-1x fa-inverse"></i>
                   </span>
                 </a>
               </li>
             </ul>
-            <p class="copyright text-muted">Copyright &copy; 2019 · Johnny Ordoñez (Engineer Systems) </p>
+            <p class="copyright text-muted">Copyright &copy; 2019 · Johnny Ordoñez · Systems Engineer · Developer Web </p>
           </div>
         </div>
       </div>
